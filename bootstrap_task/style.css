@@ -1,0 +1,15 @@
+.carousel-inner{
+    height: 60vh;
+}
+.carousel-item{ 
+    height: 60vh;
+}
+.myclass{
+    height: 60vh;
+}
+
+.nav-link-custom:hover {
+    color: orange;
+    text-decoration: underline;
+    transition: all .24;
+}
