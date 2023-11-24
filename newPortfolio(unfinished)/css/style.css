@@ -1,0 +1,25 @@
+html{
+    box-sizing: border-box;
+}
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.header {
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 100%;
+    padding: 10px 0 10px;
+    height: 100px;
+}
+.header__items {
+    display: flex;
+    justify-content: space-between;
+}
+.header__item-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+}
